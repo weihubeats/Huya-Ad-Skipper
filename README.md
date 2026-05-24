@@ -15,31 +15,16 @@
 
 ## 📸 效果演示
 
-*(建议在这里上传两张对比图：一张全是广告的截图，一张干干净净的截图)*
-- 拦截前：直播间右下角、播放器正中央全是贴片和游戏推广。
+
+- 拦截前：直播间右下角、播放器正中央全是贴片和游戏推广
+
+
 - 拦截后：✅ 纯净无打扰！
 
 ## 📦 安装指南
 
 1. **安装环境**：首先确保你的浏览器（Chrome / Edge / Firefox 等）已安装 [Tampermonkey (油猴)](https://www.tampermonkey.net/) 扩展。
 2. **安装脚本**：
-   - **方式一（推荐）**：前往 [Greasy Fork 脚本主页](#) *(发布后将此处的#替换为你的脚本链接)* 点击“安装此脚本”。
+   - **方式一（推荐）**：前往 [Greasy Fork 脚本主页](https://greasyfork.org/zh-CN/scripts/579509-%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD%E5%87%80%E5%8C%96%E8%A7%86%E7%95%8C-%E8%87%AA%E5%8A%A8%E6%8B%A6%E6%88%AA-%E8%B7%B3%E8%BF%87%E5%B9%BF%E5%91%8A)点击“安装此脚本”。
    - **方式二（本地安装）**：点击油猴插件图标 -> 添加新脚本 -> 将本项目中的 `huya-ad-skipper.user.js` 代码复制粘贴进去 -> `Ctrl+S` 保存。
 3. **享受清爽**：刷新虎牙直播网页，脚本将在后台静默为你保驾护航。
-
-## 💻 完整代码示例预览
-
-脚本头部已规范化开源信息，欢迎随意 Fork：
-
-```javascript
-// ==UserScript==
-// @name         虎牙直播净化视界 - 自动拦截/跳过广告
-// @namespace    [http://tampermonkey.net/](http://tampermonkey.net/)
-// @version      1.3.0
-// @description  精准适配虎牙各类新旧广告、A/B测试弹窗及 ab-skip 跳过按钮，让直播画面保持清爽！
-// @author       weihubeats
-// @license      MIT
-// @match        *://*[.huya.com/](https://.huya.com/)*
-// @icon         [https://www.huya.com/favicon.ico](https://www.huya.com/favicon.ico)
-// @grant        none
-// ==/UserScript==
